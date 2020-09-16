@@ -9,9 +9,11 @@
 <body>
 <% 
        //스크립트릿(scriptlet)=>자바코딩(변수,제어문)
-       String str="이연수";
+       String str="홍길동";
        System.out.println("str="+str);//콘솔에 출력
        out.println("str="+str);//웹에 출력=>document.write("str=>"+str)
 %>      
+<hr>
+str의 값 출력=<%=str %>
 </body>
 </html>
